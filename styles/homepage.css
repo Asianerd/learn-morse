@@ -134,6 +134,8 @@
             }
         }
 
+        /* made by han_yuji_ */
+
         &[aria-label="closed"] {
             transform:translateX(calc(-100% + 1ch + 3.5em));
 
