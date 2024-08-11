@@ -26,6 +26,9 @@
 
     #word-container {
         white-space: pre;
+
+        user-select:none;
+        -webkit-user-select: none;
     }
 
     hr {
@@ -64,6 +67,9 @@
         cursor: pointer;
 
         touch-action: manipulation;
+
+        user-select: none;
+        -webkit-user-select: none;
     
         &.pressed {
             opacity: 0.5;
